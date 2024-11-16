@@ -3,7 +3,7 @@ import classes from "./chat.module.css";
 import Message from "@/components/Message";
 import { useEffect, useState } from "react";
 
-export default function chat({ userId }) {
+export default function Chat({ userId }) {
   const [messages, setMessages] = useState([]);
   const [message, setMessage] = useState("");
 
