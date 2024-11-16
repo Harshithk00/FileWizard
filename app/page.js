@@ -60,17 +60,17 @@ export default function Home() {
         <div className={classes.imgGrid}>
           <div className={classes.image1}>
             <Link href={"/"}>
-              <Image src={Image1} width={500}></Image>
+              <Image src={Image1} width={500} alt=""></Image>
             </Link>
           </div>
           <div className={classes.image1}>
             <Link href={"/"}>
-              <Image src={Image1} width={500}></Image>
+              <Image src={Image1} width={500} alt=""></Image>
             </Link>
           </div>
           <div className={classes.image1}>
             <Link href={"/"}>
-              <Image src={Image1} width={500}></Image>
+              <Image src={Image1} width={500} alt=""></Image>
             </Link>
           </div>
         </div>
