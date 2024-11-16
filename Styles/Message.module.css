@@ -1,0 +1,19 @@
+.all{
+    background-color: aliceblue;
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 1rem;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 5%;
+    opacity: 80%;
+    /* overflow-y: auto; */
+}
+.userName{
+    font-weight: bold;
+    font-size: small;
+    margin:0px;
+}
+.msg{
+    margin: 0px;
+}

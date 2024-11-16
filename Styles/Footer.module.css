@@ -1,0 +1,27 @@
+.all{
+    /* background-color: #0C0C0C;
+    opacity: 50%; */
+    position: relative;
+    top: calc(100%+0px);
+    background-color: rgba(12, 12, 12, 0.5);
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding: 2% 0% 0.5rem 0%;
+}
+/* .all div p{
+    margin:0px;
+    
+} */
+/* .allcontent1{
+    
+} */
+.cp{
+    padding: 1% 0% 0.5rem 0%;
+}
+.pcontent{
+
+    padding: 0% 30%;
+    margin: 0px;
+    color: rgba(255, 255, 255, 5);
+}
