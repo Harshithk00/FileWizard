@@ -1,0 +1,36 @@
+.all{
+    width: 80vw;
+    height: 85vh;
+    background-color: black;
+    margin: 5% 0% 5% 0%;
+    border-radius: 1rem;
+    opacity: 50%;
+    position: relative;
+}
+.inputDiv{
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 90%;
+    height: 2.5rem;
+    font-size: large;
+}
+.chatLayout{
+    display: flex;
+    justify-content: center;
+}
+.chatDiv{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: 75vh;
+}
+.chatDiv::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Edge */
+}

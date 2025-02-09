@@ -1,0 +1,60 @@
+.all{
+    background-image: url("../Public/Images/background2.jpg"); 
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    font-family: 'Brush Script MT', cursive;
+    /* background-size: ; */
+    
+}
+.body{
+    height: 100%;
+    width: 100%;
+     
+}
+.hr{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 2px;
+    background-color: #ADD8E6;  
+     
+    
+}
+.heading{
+    margin-top: 6%;
+    text-align: center;
+    font-style: italic;
+    font-size: 100px;
+    color: #FFFFFF; 
+}
+.content{
+    margin: 4% 7% 0% 7%; 
+    font-size: large;
+    color: #cccccc;
+} 
+/* .content h4{
+    margin:6% 0% 0% 0%;
+    font-size: x-large;
+    color: #FFFFFF;
+} */
+/* .pContent{
+    font-size: large;
+    margin: 4% 0%; 
+    color: #FFFFFF;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+} */
+.imgGrid{
+    margin: 10% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.image1{
+    max-height: 10%;
+    background-color: #000000;
+}
+.chat{
+    display: flex;
+    justify-content: center;
+    
+}

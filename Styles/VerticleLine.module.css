@@ -1,0 +1,6 @@
+.verticalLine {
+    width: 2px; /* Width of the vertical line */
+    height: 100%; /* Height of the vertical line */
+    background-color: rgba(255, 255, 255, 0.5); /* Color of the line */
+    margin: 0 20px; /* Optional: space around the line */
+}

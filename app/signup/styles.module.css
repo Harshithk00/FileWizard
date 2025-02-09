@@ -1,0 +1,62 @@
+.all {
+    background-color: #2F57AB;
+    width: 40%;
+    height: 35vh;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    margin-left: 30vw;
+    padding: 20px; /* Optional: add padding for better spacing */
+    border-radius: 10px; /* Optional: add border radius for a softer look */
+    display: flex;
+    gap: 20px;
+}
+
+.all form p {
+    color: white; /* Ensure text color is visible against the background */
+}
+
+.all form input {
+    opacity: 1; /* Full opacity for inputs (default behavior) */
+    background-color: white; /* White background for input fields */
+    color: black; /* Text color for input fields */
+    padding: 10px; /* Padding for input fields */
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #ccc; /* Light gray border for inputs */
+    width: 95%; /* Full width for inputs */
+    margin-bottom: 10px; /* Space between inputs */
+}
+
+.all form button {
+    background-color: #0070f3; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 20%; /* Full width for button */
+}
+
+.formbtn{
+    display: flex;
+    justify-content: right;
+}
+
+.all form button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+.formbtn1{
+    margin-top: 2rem;
+}
+
+.signupform{
+    width: 50%;
+}
+.verticalline{
+    width: 10%;
+}
+.loginform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}

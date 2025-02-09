@@ -1,0 +1,98 @@
+.all{
+    background-color: rgb(10, 22, 32);
+    padding: 5%;
+    background-color: #121212; /* Dark background for the body */
+    color: #f0f0f0; /* Light text color for contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    
+}
+.fileCards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 3 equal-width columns */
+    gap: 20px;
+    
+}
+
+    
+  
+  .card {
+    
+    background-color: #1e1e1e; /* Dark card background */
+    color: #f0f0f0; /* Light text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Shadow for depth */
+    max-width: 400px;
+    margin: 20px 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Stronger shadow on hover */
+  }
+  
+  .filename {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .filename a {
+    text-decoration: none;
+    color: #4fa3f7; /* Blue color for the link */
+    transition: color 0.2s ease;
+  }
+  
+  .filename a:hover {
+    color: #79a9ff; /* Lighter blue on hover */
+  }
+  
+  .filesize, .filedate {
+    font-size: 14px;
+    color: #b0b0b0; /* Lighter gray text */
+  }
+  
+  .filesize {
+    margin-bottom: 6px;
+  }
+  
+  .cardactions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .sharebtn, .deletebtn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .sharebtn {
+    background-color: #4fa3f7;
+    color: #fff;
+  }
+  
+  .sharebtn:hover {
+    background-color: #3182ce;
+  }
+  
+  .deletebtn {
+    background-color: #e53e3e;
+    color: #fff;
+  }
+  
+  .deletebtn:hover {
+    background-color: #c53030;
+  }
+  
+
+  .svg1:hover{
+    cursor: pointer;
+  }

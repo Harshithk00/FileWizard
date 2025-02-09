@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.all{
+    background-color: black;
+    /* color: #FAF7F0; */
+    /* font-style: italic; */
+    /* font-family: "Playfair Display", serif; */
+    font-family: 'Brush Script MT', cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #FFFFFF;
+    height: 5%;
+}
+
+.NavBar{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    padding: 1%;
+    font-size: 2.5rem;
+    /* background-color: #B17457; */
+    background-color: #0C0C0C;
+    opacity: 90%;
+    position: fixed;
+    width: 100%;
+    
+}
+.NavBar1{
+    padding-left: 20px;
+}
+.NavBar2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.NavBar3{
+    display: flex;
+    justify-content: flex-end;
+    padding-right:3vw ;
+    position: relative;
+}
+.NavLink{
+    color: inherit;
+    text-decoration: none;
+}
+.active{
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+    transition: text-shadow 0.7s ease;
+}
+.dropdownmenu{
+    position: absolute;
+    width: 8rem;
+    top: calc(100% + 0px);
+    background-color: white; /* Dropdown background color */
+    color: black; /* Dropdown text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for dropdown */
+    z-index: 1; /* Ensure it’s on top of other elements */
+    /* margin-top: 5px; */
+    font-size: large;
+    background-color: #0C0C0C;
+    opacity: 100%;
+    color: #FFFFFF;
+    margin: 0px;
+
+}
+.dropdownItem {
+    padding: 10px; /* Item padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #FFFFFF;
+}
+.btn{
+    cursor: pointer;
+    width: 7rem;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 0px;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0px;
+    margin: 0px;
+}
