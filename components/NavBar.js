@@ -72,7 +72,7 @@ export default function NavBar() {
                   </Link>
                 </div>
                 <div className={classes.dropdownItem}>
-                  <Link href={"/friends"} className={classes.NavLink}>Friends</Link>
+                  <Link href={"/friendsection"} className={classes.NavLink}>Friends</Link>
                 </div>
                 <div className={classes.dropdownItem}>
                   <Link href={"/api/logout"} className={classes.NavLink}>Logout</Link>

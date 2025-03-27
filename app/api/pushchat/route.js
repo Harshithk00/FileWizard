@@ -1,5 +1,4 @@
 import { poolAuth } from "@/utils/db";
-import { poolChat } from "@/utils/dbChat";
 import { verifyToken } from "@/utils/jwt";
 
 export async function POST(req) {

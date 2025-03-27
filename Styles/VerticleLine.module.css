@@ -1,3 +1,8 @@
+.all{
+    position: relative;
+    top: calc(100%+0px);
+}
+
 .verticalLine {
     width: 2px; /* Width of the vertical line */
     height: 100%; /* Height of the vertical line */

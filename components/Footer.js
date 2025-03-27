@@ -20,22 +20,22 @@ export default async function Footer() {
         </p>
         <div>
           <a href="">
-            <Image src="" alt=""></Image>insta
+            <Image src={null} alt=""></Image>insta
           </a>
           <a href="">
-            <Image src="" alt=""></Image>discord
+            <Image src={null} alt=""></Image>discord
           </a>
           <a href="">
-            <Image src="" alt=""></Image>linkedin
+            <Image src={null} alt=""></Image>linkedin
           </a>
           <a href="">
-            <Image src="" alt=""></Image>website
+            <Image src={null} alt=""></Image>website
           </a>
           <a href="">
-            <Image src="" alt=""></Image>twitter
+            <Image src={null} alt=""></Image>twitter
           </a>
           <a href="">
-            <Image src="" alt=""></Image>github
+            <Image src={null} alt=""></Image>github
           </a>
         </div>
       </div>
