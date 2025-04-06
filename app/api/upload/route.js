@@ -102,10 +102,24 @@
 
 import { NextResponse } from 'next/server';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { verifyToken } from '@/utils/jwt';
+import { poolAuth } from '@/utils/db';
 
 export async function POST(request) {
+  const token = req.cookies.get('token')?.value;
+  
+    if (!token) {
+      return NextResponse.json({ error: 'Unauthorized' },{status:401});
+    }
+
   try {
     // Parse the form data
+    const decodedToken = await verifyToken(token);
+    if (!decodedToken) {
+      return NextResponse.json({ error: 'Invalid token' },{status:401})
+    }
+    const userId = decodedToken.username;
+
     const formData = await request.formData();
     const file = formData.get('file');
 
@@ -148,6 +162,10 @@ export async function POST(request) {
     // Upload the file to S3
     await s3Client.send(command);
 
+    const pgFile = await poolAuth.query(
+      'INSERT INTO files (user_id, file_name) VALUES ($1, $2) RETURNING id',
+      [userId, uploadParams.Key] // Assuming user_id is 1 for demonstration
+    );
     return NextResponse.json({ 
       message: 'File uploaded successfully',
       fileName: uploadParams.Key 
